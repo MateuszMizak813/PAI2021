@@ -1,0 +1,13 @@
+body{
+    margin:0;
+}
+
+.home_page_container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/home_page_background.png");
+    background-size: 100vw 100vh;
+    display: grid;
+    grid-template-rows: 15% 20% 30%;
+    grid-template-columns: 10% 10% 10% 10% 15% 15% 15% 15%;
+}
